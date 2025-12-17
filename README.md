@@ -1,6 +1,7 @@
 # AI Illustration Personalization App
 
-Upload a photo and generate a personalized AI illustration.
+A full-stack web application that allows users to upload a photo and receive a personalized AI-style illustration.
+The project focuses on clean frontend–backend integration, file upload handling, and an AI-ready backend architecture.
 
 ## Tech Stack
 - React.js
