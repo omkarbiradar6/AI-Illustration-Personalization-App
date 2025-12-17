@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #f4f6f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 50px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  max-width: 420px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.upload-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: 2px dashed #bbb;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background: #fafafa;
+}
+
+.upload-box img {
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.upload-box span {
+  color: #888;
+}
+
+.generate-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.generate-btn:disabled {
+  background: #999;
+}
+
+.result {
+  margin-top: 30px;
+}
+
+.result img {
+  width: 100%;
+  border-radius: 10px;
+}
+
